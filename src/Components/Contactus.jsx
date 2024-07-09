@@ -104,11 +104,11 @@ const Contactus = () => {
     <div className="w-full h-auto text-center py-10 md:py-20">
       {/* Header Section */}
       <div className="mt-10 md:mt-0">
-        <p className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8] text-xl md:text-2xl">
+        <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8]  ">
           Contact us
         </p>
         <h1 className="text-3xl font-bold mt-2 md:mt-4">Get in touch</h1>
-        <p className="mt-2 md:mt-4">
+        <p className="mt-2 md:mt-4 text-gray-400">
           We'd love to hear from you, please fill out this form.
         </p>
       </div>

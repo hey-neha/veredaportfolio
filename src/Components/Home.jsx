@@ -2,9 +2,9 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="w-full h-auto p-10  md:p-24 text-center">
+    <div className="w-full h-auto p-10  md:p-24  text-center  ">
       <div>
-        <h1 className="text-center font-bold text-xl md:text-3xl ">
+        <h1 className="  text-center md:text-[30px] text-black text-[24px] lg:text-[36px] font-semibold ">
           Portfolio of{" "}
           <span className="text-center text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8]  font-semibold">
             Vereda Digital Technology
@@ -12,7 +12,10 @@ const Home = () => {
         </h1>
       </div>
       <div>
-        <p className=" mt-4 md:mt-6 text-[16px] lg:text-[20px]  text-lg  text-[#42526B]   sm:text-lg md:text-xl mx-auto font-normal leading-[25px] opacity-70 ">
+        <p
+          className=" mt-4 md:mt-6 text-[16px] lg:text-[20px] text-base    text-[#42526B]   sm:text-lg md:text-2xl mx-auto font-normal leading-[25px] opacity-70
+        "
+        >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt nobis
           possimus eum beatae exercitationem error doloribus enim quae quis illo
           laudantium assumenda a libero natus placeat magnam ad molestiae

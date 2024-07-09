@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <div className="w-full h-auto flex flex-col text-center md:p-20">
       <div>
-        <h1 className="text-3xl font-bold">Our portfolio</h1>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold">Our portfolio</h1>
         <p className=" pt-4 md:pt-5  px-10 md:px-64">
           Lorem ipsum dolor{" "}
           <span className="text-center  text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8]  ">
@@ -106,10 +106,17 @@ const Portfolio = () => {
 
         {/*    btn */}
 
-        <div className="  flex  text-center p-3 mx-20 w-full md:w-1/5 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded mb-10 md:mb- ">
+        {/*  <div className="  flex  text-center p-3 mx-20 w-full md:w-1/5 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded mb-10 md:mb-6 ">
           <a className="text-white md:ml-8 ml-40 flex justify-center " href="#">
             {" "}
             View All Portfolio
+          </a>
+        </div> */}
+
+        <div className=" mt-5 md:mt-14 mb-8  flex text-center p-3  w-full lg:w-1/5  md:w-1/5  bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded ">
+          <a className="text-white text-center lg:ml-8 md:ml-8 ml-32" href="#">
+            {" "}
+            View of all portfolio
           </a>
         </div>
       </div>

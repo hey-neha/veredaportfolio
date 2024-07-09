@@ -52,7 +52,7 @@ const Footer = () => {
 
         <div className="text-center">
           <h1 className="text-white font-bold text-center">SOCIAL LINKS</h1>
-          <ul className=" flex-col  gap-2 mt-4 flex justify-center ml-24 mb-4 md:ml-2 text-gray-400">
+          <ul className=" flex-col  gap-2 mt-4 flex justify-center lg:ml-5 md:ml-8 ml-20 mb-4  text-gray-400   ">
             <img className="w-20 md:w-28 text-center" src={facebook} alt="" />
             <img className="w-20 md:w-28 text-center" src={linkedin} alt="" />
             <img className="w-20 md:w-28 text-center" src={twitter} alt="" />
