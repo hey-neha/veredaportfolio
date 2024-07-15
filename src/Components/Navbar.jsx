@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <nav className=" w-full h-auto flex justify-between px-12 md:mt-2">
         <div>
-          <img className="md:w-36  h-auto" src={vereda} alt="" />
+          <img className=" w-32 md:w-36 mt-1" src={vereda} alt="" />
         </div>
         <div className="hidden md:flex md:justify-center">
           <ul className="flex justify-between gap-10 md:mt-3 font-serif">

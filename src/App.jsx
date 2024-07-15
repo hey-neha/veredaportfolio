@@ -6,7 +6,7 @@ import Featured from "./Components/Featured";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
-import Portfolio from "./Components/Portfolio";
+// import Portfolio from "./Components/Portfolio";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Home />
       <Featured />
-      <Portfolio />
+   {/*    <Portfolio /> */}
     {/* <Card/> */}
       <Clients/>
       <Contactus/>

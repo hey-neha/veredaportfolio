@@ -192,7 +192,7 @@ const Contactus = () => {
           <div className="mt-6">
             <button
               type="submit"
-              className="w-full md:w-3/4 lg:w-1/2 p-2 border rounded bg-gradient-to-r from-[#53ADE4] to-[#277BA8] text-white font-bold"
+              className="w-full md:w-3/4 lg:w-1/2 p-2 border rounded bg-gradient-to-r from-[#277BA8] to-[#277BA8] text-white font-bold"
             >
               Send message
             </button>

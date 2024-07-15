@@ -27,7 +27,7 @@ const Home = () => {
           rerum voluptatem facilis neque provident enim id doloremque. Obcaecati
           suscipit.
         </p>
-        <div className=" mt-5 md:mt-14  flex md:ml-[450px] text-center p-3  w-full md:w-1/5 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded ">
+        <div className=" mt-5 md:mt-14  flex md:ml-[300px] lg:ml-[390px] lg:w-[23%]  text-center p-3  w-full md:w-1/5 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded ">
           <a className="text-white ml-14 flex justify-center md:ml-4" href="#">
             {" "}
             Talk to our Export Now
